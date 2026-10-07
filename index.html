@@ -3,34 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        nav {
-            display: flex;
-            gap: 10px;
-        }
-    </style>
+    <title>Main Page</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU+Guides&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Ninas Website</h1>
+    <div class="topnav">
         <nav>
-            <a href="index.html">Home</a>
+            <a class="active" href="index.html">Home</a>
             <a href="about.html">About</a>
         </nav>
-    </header>
-    <h1>Welcome!</h1>
-    <h2>Ninas Website</h2>
+    </div>
+    <h1 class="welcome">Welcome!</h1>
+    <h2 class="welcome">Ninas Website</h2>
     <br><br><br><br>
-    <div>
+    <div class="block">
         <p>How to be preatty</p>
         <ul>
             <li>Take a shower every day</li>
             <li>Come to my salon for a haircut</li>
         </ul>
         <p>And you will look like this cat</p>
-        <img src="https://cdn.pixabay.com/photo/2025/07/17/18/39/cat-9720087_1280.jpg" alt="">
+        <img width="23%" src="https://cdn.pixabay.com/photo/2025/07/17/18/39/cat-9720087_1280.jpg" alt="">
     </div>
-
+    <footer>
+        <hr>
+        <p id="copyright"> <small>Copyright © 2025 Nina</p>
+    </footer>
 </body>
 </html>
