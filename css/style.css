@@ -170,3 +170,35 @@ header {
     padding: 20px;
     border: 15px solid green;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bell-icon {
+  /* Имя сценария | Длительность | Повторы */
+  animation: shake 0.8s infinite;
+}
+
+
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }       /* Старт */
+  20% { transform: rotate(-1deg); }    /* Наклонился влево */
+  40% { transform: rotate(1deg); }     /* Наклонился вправо */
+  60% { transform: rotate(-1deg); }    /* Затухает влево */
+  80% { transform: rotate(1deg); }     /* Затухает вправо */
+  100% { transform: rotate(0deg); }     /* Вернулся в норму */
+}
