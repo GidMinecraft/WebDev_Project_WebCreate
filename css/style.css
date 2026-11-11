@@ -158,19 +158,31 @@ header {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.About_text{
+   width: max-content;
+   height: 60px;
+   background-color: rgb(0, 0, 0); 
+   padding: 5px;
+   margin: auto;
+}
+
+
 .Text-read{
     margin: auto;
     color: white;
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
     width: max-content;
     height: max-content;
+    font-size: 20px;
+    text-decoration: solid;;
 }
 .Img-read{
     margin: auto;
     padding: 20px;
     border: 15px solid green;
 }
-
 
 
 
